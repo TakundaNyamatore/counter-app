@@ -12,4 +12,12 @@ describe("Counter test suite", () => {
   it("Check that the count increases by one when the increment button is pressed", () => {
     // Place your code here...
   });
+
+  it("Check that the count decreases by one when the decrement button is pressed", () => {
+    // Place your code here...
+  });
+
+  it("Check that the count value does not go below zero", () => {
+    // Place your code here...
+  });
 });

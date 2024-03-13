@@ -6,6 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>count: 0</Text>
       <Button text={"increment"} />
+      <Button text={"decrement"} />
     </View>
   );
 }
