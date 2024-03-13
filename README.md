@@ -1,7 +1,6 @@
 
 LETS WRITE SOME TESTS!!!
 
-1. Add functionality to increase the count when the increment button is pressed
-2. Add functionality to decrease the count when the decrement button is pressed
-3. Add test for counter to make sure that the count increases when the increment button is pressed.
-4. Add test for counter to make sure that the count decreases when the decrement button is pressed.
+1. The count value should increase when the increment button is pressed
+2. The count value should decrease when the decrement button is pressed
+3. The count value should never decrease below zero when the decrement button is pressed
