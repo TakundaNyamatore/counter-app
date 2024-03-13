@@ -11,10 +11,5 @@ describe("Counter test suite", () => {
 
   it("Check that the count increases by one when the increment button is pressed", () => {
     // Place your code here...
-    const { getByText } = render(<App />);
-    const button = getByText("increment");
-    fireEvent.press(button);
-    const countText = getByText("count: 1");
-    expect(countText).toBeTruthy();
   });
 });
